@@ -1,5 +1,5 @@
 # Neural-machine-translation-with-attention
-Neural machine translation with attention mechanism 
+Neural machine translation with an attention mechanism 
 
 
 ## Dataset :
@@ -12,19 +12,34 @@ English-Vietnamese datasets can be found at: https://nlp.stanford.edu/projects/n
 python NMT.py train
 ```
 
-Traint the model
+Train the model
 
 ```bash
 python NMT.py test
 ```
 
-Test model with test set givien in English-Vietnamese datasets and prints BLUE score
+Test model with test set given in English-Vietnamese datasets and prints BLUE score
 
 ```bash
 python NMT.py translate
 ```
 
-Translate given English sentence to Vietnamese
+Translate given English sentence into Vietnamese
+
+## Results
+
+### Train Command
+
+![Train](https://github.com/SayleeMJ/Neural-Machine-Translation-with-Attention/blob/main/Train2.png)
+
+### Test Command
+
+![Test](https://github.com/SayleeMJ/Neural-Machine-Translation-with-Attention/blob/main/Test.png)
+
+### Translate command
+
+![Translate](https://github.com/SayleeMJ/Neural-Machine-Translation-with-Attention/blob/main/Translate.png)
+
 
 
 
